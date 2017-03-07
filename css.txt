@@ -1,0 +1,74 @@
+                                          CSS-Cascading Style Sheet
+DEFINITION:
+  1. CSS describes how HTML elements are to be displayed on screen
+  2. CSS saves lot of works 
+  3. external stylesheet are stored in CSS files
+  USES:
+    it is used to define styles in your webpages
+      1.including the design
+      2.layout
+      3.variation in display for diff devices
+      4.screen sizes
+
+CSS SYNTAX:
+   a CSS consists of a selector and a declaration block
+ 
+         Selector--->  h1                               ]
+         Declaration---> {color:blue;font-size:12px;}   ]   that is called CSS       
+  SELECTOR:
+     selector means the selector points to the HTML element you want to style
+
+  SELECTOR:
+    selector are used in find HTML elements
+       1.Element selector--->the element selector selects elements based on the element name(p)
+       2.id selector     --->elements to select a specific element and used to select one unique element and within #(#para1)
+       3.class selector ---->select elements with a specific class attribute and within .....(.center)
+       4.grouping selector --> to group selectors separate each seletor with a comma(h1,h1,,p)
+  DECLARATION:
+      font-size,color--->property
+      blue,12px------>values
+
+WAYS TO INSERT CSS:
+      1.External style sheet ---> outside to ready the style sheet to connect the HTML file <link rel="stylesheet" type="text/css" href="mystyle.css">
+      2.Internal style sheet --->nternal styles are defined within the <style> element, inside the <head> section of an HTML page
+      3.Inline style -->An inline style may be used to apply a unique style for a single element.
+
+COLORS:
+   Colors in CSS are most often specified by:
+
+   1. a valid color name - like "red"
+   2. an RGB value - like "rgb(255, 0, 0)"
+   3. a HEX value - like "#ff0000"--->RGB values can also be specified using hexadecimal color values in the form: #RRGGBB
+                  high value ff and low value 00
+  RGB FORMULA:
+        RGB color values can be specified using this formula: rgb(red, green, blue).
+        Each parameter (red, green, blue) defines the intensity of the color between 0 and 255.  
+     example:rgb(255,0,0)
+
+CSS BACKGROUDS:
+        The CSS background properties are used to define the background effects for elements.   
+    BACKGROUND PROPERTIES:
+         1.background-colors--->The background-color property specifies the background color of an element(background-color:blue;)
+         2.background-image----> background-image: url("paper.gif,jpg,png");
+         3.background-attachment-->background-repeat: repeat-x,repeat-y;
+         4.background-position---> background-image: url("img_tree.png");
+    background-repeat: no-repeat;
+    background-position: right top,fixed,left top;
+         5.background-shorthand --->To shorten the code, it is also possible to specify all the background properties in one single property. This is called a shorthand property.
+           example: background: #ffffff url("img_tree.png") no-repeat right top;
+    margin-right: 200px;
+BORDER:
+      The CSS border properties allow you to specify the style, width, and color of an element's border.
+   The following values are allowed:
+
+    dotted - Defines a dotted border
+    dashed - Defines a dashed border
+    solid - Defines a solid border
+    double - Defines a double border
+    groove - Defines a 3D grooved border. The effect depends on the border-color value
+    ridge - Defines a 3D ridged border. The effect depends on the border-color value
+    inset - Defines a 3D inset border. The effect depends on the border-color value
+    outset - Defines a 3D outset border. The effect depends on the border-color value
+    none - Defines no border
+    hidden - Defines a hidden border
+
