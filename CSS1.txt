@@ -1,0 +1,54 @@
+MARGIN: 
+    The CSS margin properties are used to generate space around elements.
+
+    The margin properties set the size of the white space OUTSIDE the border.
+PADDING:
+   The CSS padding properties define the white space between the element content and the element border.
+
+    The padding clears an area around the content (inside the border) of an element.
+  PROPERTIES:
+    CSS has properties for specifying the padding for each side of an element:
+
+    padding-top
+    padding-right
+    padding-bottom
+    padding-left
+  *also same properties of margin
+HEIGHT/WIDTH:
+   The height and width properties are used to set the height and width of an element.
+        div {
+    width: 500px;
+    height: 100px;
+    border: 3px solid #73AD21;
+   }
+TEXT:
+  *text color:
+      The color property is used to set the color of the text.
+       ex:   body 
+             {
+            color: blue;
+             }
+ *text alignment:
+     The text-align property is used to set the horizontal alignment of a text.
+
+     A text can be left or right aligned, centered, or justified.
+      ex:h2 
+        {
+       text-align: left,right,center;
+        }
+   *text decoration:
+      The text-decoration property is used to set or remove decorations from text.
+      ex:text-decoration:none,line-through,underline
+   *text indentation:
+      indentation of first line
+     ex:text-indent:50px;
+   *text transformation:
+      The text-transform property is used to specify uppercase and lowercase letters in a text.
+     ex:
+        text-transform:upercase,lowercase,capitalize;
+   *letter space,word space:
+      ex: letter-space:9px,word-space:9px;
+
+       
+      
+  
